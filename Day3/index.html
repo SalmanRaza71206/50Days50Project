@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ScoreBoard</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="image-container">
+<img src="https://cdn.dribbble.com/users/49173/screenshots/389010/media/ae212a84d87683b9ea9c7af398688f28.png?resize=400x300&vertical=center" alt="">
+        </div>
+        <div class="score-container">
+            <span>Scoreboard for your game</span>
+            <hr style="width: 100%;margin-top: 5px;">
+            <span style="display: flex; align-items: center;"><h1 data-count="0" id="score1">0</h1> to <h1 data-count="0" id="score2">0</h1></span>
+            
+            <span>Use the buttons below to keep score</span>
+            <span>Playing To</span>
+            <Select title="Team Count">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </Select>
+        </div>
+        <div class="butttons">
+            
+            
+<button type="button" id="TeamA">
+    Team A (+1)
+</button>
+<button type="button" id="TeamB">
+    Team B (+1)
+</button>
+<button type="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
